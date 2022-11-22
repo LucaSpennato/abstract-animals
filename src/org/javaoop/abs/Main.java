@@ -56,6 +56,8 @@ public class Main {
 				}
 			}
 			
+			//Bonus Boss
+			
 			if(personValue.getClass().equals(Boss.class)) {
 				
 				if(personYearIncomeValue > maxYearIncomeBoss) {
@@ -81,6 +83,8 @@ public class Main {
 		System.out.println("Total corporate paychecks: " + totalCorporatePaychecks + "$");
 		System.out.println("Average corporate paychecks: " + corporateAvgPaycheck + "$");
 		
+		
+		//Bonus
 		System.out.println("-------------------------------------------------------");
 		
 		System.out.println("Employee highest income: " + maxYearIncomeEmployee + "$");
