@@ -48,7 +48,7 @@ public class Main {
 			
 			//Bonus Employee
 			
-			if(personValue.getClass().equals(Employee.class)) {
+			if(personValue instanceof Employee ){
 				
 				if(personYearIncomeValue > maxYearIncomeEmployee) {
 					maxYearIncomeEmployee = personYearIncomeValue;
@@ -58,7 +58,7 @@ public class Main {
 			
 			//Bonus Boss
 			
-			if(personValue.getClass().equals(Boss.class)) {
+			if(personValue instanceof Boss ) {
 				
 				if(personYearIncomeValue > maxYearIncomeBoss) {
 					maxYearIncomeBoss = personYearIncomeValue;
