@@ -9,4 +9,5 @@ public abstract class Animal {
 	public abstract String verse();
 	
 	public abstract String eat();
+	
 }
