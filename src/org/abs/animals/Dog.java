@@ -1,6 +1,6 @@
 package org.abs.animals;
 
-public class Dog extends Animal {
+public class Dog extends Animal implements CanSwin {
 
 	@Override
 	public String verse() {
@@ -12,6 +12,12 @@ public class Dog extends Animal {
 	public String eat() {
 
 		return "Meat";
+	}
+
+	@Override
+	public String swim() {
+
+		return "I'm seal now";
 	}
 
 }

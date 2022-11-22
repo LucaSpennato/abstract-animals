@@ -24,6 +24,18 @@ public class Main {
 			
 		}
 		
+		swim(homie.swim());
+		swim(dol.swim());
+		fly(usa.fly());
+		fly(jack.fly());
+	}
+	
+	public static void fly(String args) {
+		System.out.println(args);
+	}
+	
+	public static void swim(String args) {
+		System.out.println(args);
 	}
 	
 }

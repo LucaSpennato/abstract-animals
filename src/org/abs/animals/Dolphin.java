@@ -1,6 +1,6 @@
 package org.abs.animals;
 
-public class Dolphin extends Animal{
+public class Dolphin extends Animal implements CanSwin{
 
 	@Override
 	public String verse() {
@@ -12,6 +12,12 @@ public class Dolphin extends Animal{
 	public String eat() {
 
 		return "Pufferfish venom";
+	}
+
+	@Override
+	public String swim() {
+
+		return "Nuoto";
 	}
 	
 }
